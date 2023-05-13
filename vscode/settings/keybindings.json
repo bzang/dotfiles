@@ -46,5 +46,15 @@
   {
     "key": "ctrl+6",
     "command": "-workbench.action.openEditorAtIndex6"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+i",
+    "command": "-editor.action.showHover",
+    "when": "editorTextFocus"
   }
 ]

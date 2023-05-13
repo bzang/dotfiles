@@ -1,60 +1,79 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "'Dank Mono', 'Inconsolata for Powerline', Monaco, monospace",
-    "editor.fontSize": 14,
-    "editor.rulers": [80,120],
-    "editor.tabSize": 2,
-    "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 120,
-    "files.exclude": {
-        "**/.git": true,
-        ".git": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "packages/node_modules/**": false,
-        "node_modules/**": true
-    },
-    "files.watcherExclude": {
-        "**/.git/objects/**": true,
-        "/node_modules/**": true
-    },
-    "search.exclude": {
-        "**/bower_components": true,
-        "packages/node_modules": false
-    },
-    "workbench.iconTheme": "vscode-icons",
-    "explorer.openEditors.visible": 0,
-    "window.zoomLevel": 1,
-    "markdown.preview.doubleClickToSwitchToEditor": false,
-    "gitlens.keymap": "alternate",
-    "javascript.validate.enable": false,
-    "gitlens.hovers.currentLine.over": "line",
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": true,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true
-    },
-    "vsicons.dontShowNewVersionMessage": true,
-    "gitlens.historyExplorer.enabled": true,
-    "gitlens.currentLine.enabled": false,
-    "terminal.external.osxExec": "iTerm2.app",
-    "workbench.colorTheme": "One Dark Pro Vivid",
-    "[javascript]": {},
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
-    "[html.erb]": {
-    },
-    "files.associations": {
-        "*.html.erb": "erb",
-        "*.erb": "erb"
-    },
-    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
-    "editor.fontLigatures": true,
-    "material-icon-theme.showWelcomeMessage": false
+  "editor.fontFamily": "'Dank Mono', 'Inconsolata for Powerline', Monaco, monospace",
+  "editor.fontSize": 14,
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  "files.exclude": {
+    "**/.git": true,
+    ".git": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "packages/node_modules/**": false,
+    "node_modules/**": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "/node_modules/**": true
+  },
+  "search.exclude": {
+    "**/bower_components": true,
+    "packages/node_modules": false
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "explorer.openEditors.visible": 0,
+  "markdown.preview.doubleClickToSwitchToEditor": false,
+  "gitlens.keymap": "alternate",
+  "javascript.validate.enable": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": true,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "gitlens.historyExplorer.enabled": true,
+  "terminal.external.osxExec": "iTerm2.app",
+  "workbench.colorTheme": "One Dark Pro Vivid",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "[html.erb]": {},
+  "files.associations": {
+    "*.html.erb": "erb",
+    "*.erb": "erb"
+  },
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.fontLigatures": true,
+  "material-icon-theme.showWelcomeMessage": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.showWelcomeOnInstall": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.trimTrailingWhitespace": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "git.autofetch": true,
+  "window.zoomLevel": 1
 }
