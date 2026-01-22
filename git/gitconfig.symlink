@@ -39,3 +39,7 @@
 
 [init]
 	defaultBranch = main
+[user]
+	email = bernie.zang@classdojo.com
+[rebase]
+	autoStash = true
